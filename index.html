@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera de Cine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cartelera de Cine</h1>
+    </header>
+    
+
+    <section class="movie-gallery">
+        <h2>Próximas Películas</h2>
+        <div class="gallery">
+            <img src="img/pelicula1.jpeg" alt="Pelicula 1">
+            <img src="img/pleicula2.jpeg" alt="Pelicula 2">
+            <img src="img/pelicula3.jpeg" alt="Pelicula 3">
+            <img src="img/pelicula4.jpeg" alt="Pelicula 4">
+        </div>
+    </section>
+
+    <section class="nav">
+        <h2>Explora más</h2>
+        <div class="nav-buttons">
+            <a href="pelicula1.html" class="btn">Película 1</a>
+            <a href="pelicula2.html" class="btn">Película 2</a>
+            <a href="pelicula3.html" class="btn">Película 3</a>
+            <a href="pelicula4.html" class="btn">Película 4</a>
+            <a href="pelicula5.html" class="btn">Película 5</a>
+        </div>
+    </section>
+
+</body>
+</html>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+.movie-gallery {
+    margin: 30px 0;
+}
+
+.movie-gallery h2 {
+    color: #fff;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    border: 3px solid #ffcc00;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.nav h2 {
+    margin-top: 50px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff9900;
+}
+
+</style>
